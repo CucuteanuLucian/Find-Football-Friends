@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load static %}
+{% block css-extra %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/dashboard.css' %}">
+{% endblock %}
+{% block page-content %}
+<div class="watch-container">
+    <div class="watch-profile">
+        <img class="profile-photo" src="{% static 'media/nav-bar-media/Profile.png' %}">
+        <img class="profile-crest" src="{% static 'media/crests/Liverpool.png' %}">
+    </div>
+    <div class="watch-buttons">
+        <button class="watch-button-yes">Yes</button>
+        <button class="watch-button-no">No</button>
+    </div>
+</div>
+{% endblock %}

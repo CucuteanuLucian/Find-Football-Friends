@@ -1,0 +1,54 @@
+@media (min-width: 1201px) {
+    .watch-container {
+        margin-top: 3.5vw;
+        display: grid;
+        justify-content: center;
+    }
+
+    .watch-profile {
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+
+    .profile-photo {
+        position: relative;
+        height: 30vw;
+        width: 20vw;
+        border-radius: 5%;
+        border: 0.15vw solid black;
+    }
+
+    .profile-crest {
+        position: absolute;
+        bottom: 0.5vw;
+        left: 50%; transform: translateX(-50%);
+        height: 5vw;
+        width: 5vw;
+        border-radius: 50%;
+        border: 0.15vw solid black;
+        background: white;
+    }
+
+    .watch-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 3vw;
+        margin-right: 3vw;
+    }
+
+    .watch-buttons button {
+        border-radius: 50%;
+        height: 4vw;
+        width: 4vw;
+        border: 0.15vw solid black;
+    }
+
+    .watch-button-yes {
+        background: green;
+    }
+
+    .watch-button-no {
+        background: red;
+    }
+}

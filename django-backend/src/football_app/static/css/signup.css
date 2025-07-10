@@ -1,0 +1,19 @@
+@media (min-width: 1201px) {
+    .signup-page {
+        height: 90vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .signup-zone {
+        width: 10vw;
+        height: 15vw;
+        background: #bcbcbc;
+        display: grid;
+        justify-content: center;
+        border-radius: 10%;
+        border: 0.15vw solid black;
+    }
+
+}

@@ -1,0 +1,30 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="{% static 'favicon-tab/favicon.ico' %}">
+    <title>FootBall-App</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+    {% block css-extra %}
+    {% endblock %}
+</head>
+<body>
+<nav>
+    <div class="nav_btn_stanga">
+        <a href="../dashboard/"><img src="{% static 'media/nav-bar-media/logo2.png' %}"></a>
+        <a href="../dashboard/"><button>Dashboard</button></a>
+        <a href="../chats/"><img src="{% static 'media/nav-bar-media/chats.png' %}"></a>
+    </div>
+    <div class="nav_btn_dreapta">
+        <button onclick="myFunction()">Luna</button>
+        <a href="../notifications/"><button>Notification Icon</button></a>
+        <a href="../profile/"><img src="{% static 'media/nav-bar-media/wall.jpg' %}"></a>
+    </div>
+</nav>
+{% block page-content %}
+{% endblock %}
+<script src="{% static 'js/base.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\football_app",
+    "\\src\\football_app\\football_app",
+    "\\src\\football_app\\users"
+  ],
+  "SelectedNode": "\\src\\football_app\\users\\serializers.py",
+  "PreviewInSolutionExplorer": false
+}

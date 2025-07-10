@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+    margin: 0;
+    transition: 0.25s;
+    background-image: url("../media/backgrounds/Light.png");
+    color: black;
+    background-repeat: repeat;
+}
+
+.dark-mode {
+    height: 100vh;
+    margin: 0;
+    transition: 0.25s;
+    background-image: url("../media/backgrounds/Dark.png");
+    color: white;
+    background-repeat: repeat;
+}
+
+@media (min-width: 1201px) {
+    nav {
+        height: 3.5vw;
+        background: #D81E5B;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav_btn_stanga {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav_btn_stanga button {
+        height: 3.5vw;
+        margin-left: 0.5vw;
+        border-radius: 50%;
+    }
+
+    .nav_btn_stanga img{
+        height: 3vw;
+        margin-left: 0.5vw;
+        margin-top: 0.2vw;
+        margin-bottom: 0.2vw;
+    }
+
+    .nav_btn_dreapta {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .nav_btn_dreapta button {
+        height: 3.5vw;
+        margin-right: 0.5vw;
+        border-radius: 50%;
+    }
+
+    .nav_btn_dreapta img{
+        height: 3vw;
+        margin-right: 0.5vw;
+        margin-top: 0.2vw;
+        margin-bottom: 0.2vw;
+        border-radius: 50%;
+        border: 0.1vw solid black;
+    }
+
+}
